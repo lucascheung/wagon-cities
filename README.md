@@ -145,3 +145,4 @@ function documentWidth()
   return height;
 }
 </body>
+</html>
