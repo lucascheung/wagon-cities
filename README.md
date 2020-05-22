@@ -10,6 +10,8 @@ Simple React + Redux starter with the following config:
 - work with `.js` or `.jsx` files
 - main `application.scss` stylesheet is imported in `index.js` as a module to enjoy hot reloading
 
+<html>
+<head>
 <style type="text/css" media="screen">
 html,
 body {
@@ -37,6 +39,8 @@ body {
   animation-delay: 1550ms;
 }
 </style>
+</head>
+<body>
 <p id="p" class="animated bounceIn">Get well soon Matt!</p>
 class Heart extends mojs.CustomShape {
   getShape () {
@@ -140,3 +144,4 @@ function documentWidth()
   
   return height;
 }
+</body>
